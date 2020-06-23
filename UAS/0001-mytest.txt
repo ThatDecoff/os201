@@ -1,30 +1,26 @@
-Script started on Wed 03 Jun 2020 09:16:37 AM WIB
+Script started on Wed 24 Jun 2020 01:48:44 AM WIB
 ]0;adrian.kaiser@badak: ~/UASadrian.kaiser@badak:~/UAS$ PS1="$ "
 $ echo $GitHubUser
 ThatDecoff
 $ echo $PSTAMP
 TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
 $ eval $PSTAMP
-200603-091702-572e-UAS/> 
+200624-014909-211e-UAS/> 
 $ PS1="\$(eval \$PSTAMP)"
-200603-091707-42f9-UAS/> date
-Wed Jun  3 09:17:13 WIB 2020
-200603-091713-acdc-UAS/> gpg2 --list-keys
+200624-014917-51a0-UAS/> date
+Wed Jun 24 01:49:24 WIB 2020
+200624-014924-aa1d-UAS/> gpg2 --list-keys
 /home/fasilkom/mahasiswa/a/adrian.kaiser/.gnupg/pubring.gpg
 -----------------------------------------------------------
-pub   4096R/C7890961 2020-02-24 [expires: 2021-02-23]
-uid       [ultimate] Adrian Kaiser (Bla bla bla) <adriankaiser.rian@gmail.com>
-sub   4096R/3DC1D592 2020-02-24 [expires: 2021-02-23]
-
-pub   4096R/5AE8638F 2020-06-02
-uid       [ultimate] Adrian Kaiser <adriankaiser.rian@gmail.com>
-sub   4096R/E18E2311 2020-06-02
-
 pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
 uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
 sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
 
-200603-091718-8457-UAS/> exit
+pub   4096R/780C1B92 2020-06-23
+uid       [ultimate] Adrian Kaiser <adriankaiser.rian@gmail.com>
+sub   4096R/FC864916 2020-06-23
+
+200624-014930-de02-UAS/> exit
 exit
 
-Script done on Wed 03 Jun 2020 09:17:25 AM WIB
+Script done on Wed 24 Jun 2020 01:49:37 AM WIB
